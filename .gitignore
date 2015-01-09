@@ -11,6 +11,28 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+#Project Specific ignores
+src/main/java/com/sapphire/
+src/main/resources/assets/sapphire/
+
+#Forge specific ignores
+.gradle/
+.settings/
+bin/
+build/
+eclipse/
+gradle/
+.classpath
+.project
+*.gradle
+CREDITS-fml.txt
+forge-1.7.10-10.13.2.1230-changelog.txt
+gradlew
+gradlew.bat
+LICENSE-fml.txt
+MinecraftForge-Credits.txt
+MinecraftForge-License.txt
+
 # ignore Maven build folder
 target/
 
